@@ -44,13 +44,8 @@ const Hero = ({
       <div className="flex justify-center gap-4">
         <CTAButton locale={CTALocale}></CTAButton>
         <Button variant="outline">
-          <Link href="https://nexty.dev/" className="flex items-center gap-2">
-            <img
-              src="/nexty-logo.png"
-              alt="Nexty.dev Logo"
-              className="w-4 h-4"
-            />{" "}
-            Get SaaS Boilerplate
+          <Link href={`/${langName}/products`} className="flex items-center gap-2">
+            {locale.viewProducts}
           </Link>
         </Button>
       </div>

@@ -1,379 +1,378 @@
 export const FAQS_EN = [
   {
-    title: "What is a landing page?",
+    title: "What is the UK series terminal block?",
     content:
-      "A landing page is a standalone web page created specifically for a marketing or advertising campaign. It's where a visitor 'lands' after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web. Unlike web pages, which typically have many goals and encourage exploration, landing pages are designed with a single focus or goal, known as a call to action (CTA).",
+      "The UK series terminal blocks are high-quality electrical connection products manufactured by Wenzhou Yuyi Electric. Made with premium materials, they offer excellent conductivity and mechanical strength, widely used in industrial automation, power distribution, and machinery.",
   },
   {
-    title: "How can I create a landing page?",
+    title: "What specifications are available?",
     content:
-      "Creating a landing page can be done in several steps: 1) Choose a landing page template that fits your campaign's needs or start from scratch. 2) Identify your landing page's objective and CTA. 3) Write compelling content that urges visitors to take action. 4) Incorporate design elements such as images, videos, and forms that align with your message. 5) Test your page's usability and mobile responsiveness. 6) Use SEO best practices to help your page get found. 7) Publish your landing page and monitor its performance to make adjustments as needed.",
+      "The UK series provides multiple specifications: UK-2.5N, UK-4N, UK-6N, UK-10N, etc. Each has corresponding current capacity and wire range to fit different scenarios.",
   },
   {
-    title: "Why is a landing page important?",
+    title: "What are the main features?",
     content:
-      "Landing pages are crucial for any marketing strategy because they provide a targeted platform for converting visitors into leads or customers. Unlike general websites, landing pages focus the visitor's attention on a single offer, minimizing distractions and guiding them towards a specific action. This focused approach can significantly increase the effectiveness of your marketing campaigns, improve your ad performance, and enhance the overall user experience by providing them with the information or solution they were seeking.",
+      "Key features: 1) Premium materials for long-term stability; 2) Low contact resistance; 3) Reliable fastening; 4) Easy installation; 5) Compliant with IEC and other standards.",
   },
   {
-    title: "Why choose our landing page boilerplate?",
+    title: "How to choose the right model?",
     content:
-      "Our landing page template is free, open-source, and powerful, making it ideal for various projects and marketing campaigns. It allows you to create a landing page in under an hour, simplifying the development process while also offering a high degree of customization and responsiveness.",
+      "Consider: 1) wire cross-section; 2) current; 3) voltage level; 4) installation space; 5) environment. Contact our engineers for selection advice.",
   },
   {
-    title: "What skills do I need to use this template?",
+    title: "How is product quality guaranteed?",
     content:
-      "To use our landing page template, you only need basic web editing skills. The design of the template is intended to be easy for non-technical users to get started with, while also providing high customizability for experienced developers.",
+      "Produced under ISO9001 QMS with strict inspections. Compliant with IEC/GB standards and relevant certifications. Warranty and after-sales are provided.",
   },
   {
-    title: "How do I get started with the landing page template?",
+    title: "How to install terminal blocks correctly?",
     content:
-      "Getting started is very simple. Just download the source code from our GitHub repository, edit the text and images as needed, and then deploy it to your server.",
+      "Steps: 1) Power off; 2) Select proper wire size; 3) Strip proper length; 4) Insert and tighten; 5) Check firmness; 6) Insulation test. See manual for details.",
   },
   {
-    title: "Does the landing page template support responsive design?",
+    title: "What industries are they used in?",
     content:
-      "Yes, our landing page template supports responsive design, ensuring that your webpage displays perfectly on a variety of devices, whether desktop, tablet, or smartphone.",
+      "Industrial automation, power distribution, machinery, building electrical, rail transit, and new energy, etc.",
   },
   {
-    title: "Can I use this template for a commercial project?",
+    title: "How to get technical support?",
     content:
-      "Absolutely. Our template is open-source, and you can use it for any type of project, including commercial purposes. We encourage users to utilize this template to create and optimize their online projects.",
+      "Contact our technical team by phone or email. We provide consulting, model selection and solutions.",
   },
   {
-    title: "Do you offer any customization services?",
+    title: "What is the lead time?",
     content:
-      "We accept paid custom development of landing pages. Please contact us via email at weijunext@gmail.com or Twitter @weijunext.",
+      "Standard models are in stock and ship within 1–3 working days. Special specs or large orders depend on actual conditions.",
   },
   {
-    title: "Are there any restrictions on using this template?",
+    title: "Do you provide customization?",
     content:
-      "No. You are free to use and modify this template. At the same time, we encourage developers to submit PRs to help improve this landing page template together.",
+      "Yes. We support custom specs/materials/markings as required. Provide detailed requirements for evaluation and quotation.",
   },
   {
-    title: "Does this template include SEO optimization features?",
+    title: "How to contact sales?",
     content:
-      "Yes, our template includes basic SEO optimization features to help your webpage achieve better rankings in search engines.",
+      "Reach our sales via phone, email, or visit our office for information, quotation, and ordering.",
   },
   {
-    title: "What should I do if I encounter problems using the template?",
+    title: "What is the warranty policy?",
     content:
-      "If you encounter any issues while using the template, please contact us via Twitter @weijunext.",
+      "Quality guarantee under normal use. We offer replacement or repair for quality issues within warranty terms.",
   },
 ];
 
 export const FAQS_ZH = [
   {
-    title: "什么是落地页？",
+    title: "什么是UK系列接线端子？",
     content:
-      "落地页是为市场营销或广告活动专门创建的独立网页。访问者在点击电子邮件中的链接、Google、Bing、YouTube、Facebook、Instagram、Twitter或网络上类似位置的广告后“降落”到该页面上。与通常具有多个目标并鼓励探索的网页不同，落地页设计有单一焦点或目标，称为行动号召（CTA）。",
+      "UK系列接线端子是温州裕亿电器有限公司生产的高品质电气连接产品。采用优质材料制造，具有良好的导电性能和机械强度，广泛应用于工业自动化、电力配电、机械设备等领域。",
   },
   {
-    title: "我如何创建一个落地页？",
+    title: "UK系列接线端子有哪些规格？",
     content:
-      "创建落地页可以分几个步骤完成：1) 选择一个适合你活动需求的落地页模板，或从头开始。2) 确定你的落地页目标和CTA。3) 编写吸引访问者采取行动的引人注目的内容。4) 加入与你信息相符的设计元素，如图片、视频和表单。5) 测试你的页面的可用性和移动响应性。6) 使用SEO最佳实践帮助你的页面被发现。7) 发布你的落地页，并监控其性能以根据需要进行调整。",
+      "UK系列接线端子提供多种规格选择，包括UK-2.5N、UK-4N、UK-6N、UK-10N等不同截面积的产品。每种规格都有相应的电流承载能力和适用导线范围，可满足不同应用场景的需求。",
   },
   {
-    title: "为什么落地页很重要？",
+    title: "产品的主要特点是什么？",
     content:
-      "落地页对于任何营销策略都至关重要，因为它们提供了一个针对性的平台，用于将访问者转化为潜在客户或客户。与通用网站不同，落地页将访问者的注意力集中在单一优惠上，最小化分心并引导他们向特定行动发展。这种集中的方法可以显著提高你的营销活动的有效性，改善广告性能，并通过为他们提供他们正在寻找的信息或解决方案来增强总体用户体验。",
+      "UK系列接线端子具有以下特点：1) 优质材料制造，确保长期稳定性；2) 良好的导电性能，降低接触电阻；3) 紧固可靠，防止松动；4) 安装简便，提高工作效率；5) 符合国际标准，质量有保障。",
   },
   {
-    title: "为什么选择我们的落地页模板？",
+    title: "如何选择合适的接线端子规格？",
     content:
-      "我们的落地页模板是免费的、开源的且功能强大，非常适合各种项目和市场营销活动。它允许你在不到一小时内创建一个落地页，简化了开发过程，同时也提供了高度的自定义性和响应性。",
+      "选择接线端子规格需要考虑以下因素：1) 导线截面积大小；2) 工作电流大小；3) 工作电压等级；4) 安装空间限制；5) 环境条件要求。建议根据实际应用需求选择合适的规格，或咨询我们的技术人员获得专业建议。",
   },
   {
-    title: "使用这个模板我需要哪些技能？",
+    title: "产品质量如何保证？",
     content:
-      "使用我们的落地页模板，你只需要基本的网页编辑技能。该模板的设计旨在让非技术用户轻松上手，同时为有经验的开发者提供高度的自定义能力。",
+      "我们严格按照ISO9001质量管理体系进行生产，所有产品均经过严格的质量检测。产品符合IEC、GB等国际国内标准，并通过相关认证。我们提供完善的售后服务和质量保证。",
   },
   {
-    title: "我如何开始使用落地页模板？",
+    title: "如何正确安装接线端子？",
     content:
-      "开始非常简单。只需从我们的GitHub仓库下载源代码，根据需要编辑文本和图片，然后将其部署到你的服务器上。",
+      "安装接线端子时请注意：1) 确保电源已断开；2) 选择合适的导线规格；3) 剥除适当长度的导线绝缘层；4) 将导线插入端子并拧紧螺钉；5) 检查连接是否牢固；6) 进行绝缘测试。详细安装说明请参考产品手册。",
   },
   {
-    title: "落地页模板支持响应式设计吗？",
+    title: "产品适用于哪些行业？",
     content:
-      "是的，我们的落地页模板支持响应式设计，确保你的网页在桌面、平板或智能手机等各种设备上完美显示。",
+      "UK系列接线端子广泛应用于工业自动化、电力配电、机械制造、建筑电气、轨道交通、新能源等多个行业。无论是工厂设备还是民用建筑，都能找到合适的应用场景。",
   },
   {
-    title: "我可以将这个模板用于商业项目吗？",
+    title: "如何获得技术支持？",
     content:
-      "绝对可以。我们的模板是开源的，你可以将其用于任何类型的项目，包括商业用途。我们鼓励用户利用这个模板来创建和优化他们的在线项目。",
+      "我们提供全面的技术支持服务。您可以通过电话、邮件或在线客服联系我们的技术团队。我们的工程师将为您提供专业的技术咨询、选型建议和解决方案。",
   },
   {
-    title: "你们提供定制服务吗？",
+    title: "产品的交货期是多长？",
     content:
-      "我们接受落地页的定制开发服务。请通过电子邮件weijunext@gmail.com或Twitter @weijunext与我们联系。",
+      "常规规格产品通常有现货供应，可在1-3个工作日内发货。特殊规格或大批量订单的交货期会根据具体情况确定。我们会在接到订单后及时与您确认具体的交货时间。",
   },
   {
-    title: "使用这个模板有任何限制吗？",
+    title: "是否提供定制服务？",
     content:
-      "没有。你可以自由使用和修改这个模板。同时，我们鼓励开发者提交PR来共同帮助改进这个落地页模板。",
+      "是的，我们可以根据客户的特殊需求提供定制服务，包括特殊规格、特殊材料、特殊标识等。定制产品需要提供详细的技术要求，我们的工程师会评估可行性并提供报价。",
   },
   {
-    title: "这个模板包括SEO优化功能吗？",
+    title: "如何联系销售团队？",
     content:
-      "是的，我们的模板包含基本的SEO优化功能，帮助你的网页在搜索引擎中获得更好的排名。",
+      "您可以通过多种方式联系我们的销售团队：电话、传真、邮件或直接到访我们的办公地址。我们的销售人员将为您提供产品信息、报价和订购服务。",
   },
   {
-    title: "如果我在使用模板时遇到问题该怎么办？",
+    title: "产品保修政策是什么？",
     content:
-      "如果你在使用模板时遇到任何问题，请通过Twitter @weijunext 与我们联系。",
+      "我们为所有产品提供质量保证。在正常使用条件下，产品出现质量问题我们将免费更换或维修。具体保修期限和条件请参考产品保修卡或联系我们的客服人员了解详情。",
   },
 ];
 
 export const FAQS_JA = [
   {
-    title: "ランディングページとは何ですか？",
+    title: "UKシリーズ端子台とは？",
     content:
-      "ランディングページは、マーケティングや広告キャンペーンのために特別に作成された独立したウェブページです。訪問者がメール内のリンクやGoogle、Bing、YouTube、Facebook、Instagram、Twitter、またはウェブ上の類似の場所からの広告をクリックした後に「着陸」する場所です。ウェブページが多くの目標を持ち探索を促すのに対し、ランディングページは行動を促す一つの焦点または目標（CTA）を持って設計されています。",
+      "UKシリーズ端子台は温州裕億電器が製造する高品質な電気接続製品です。優れた導電性と機械的強度を備え、産業オートメーションや配電、機械設備などで広く使用されています。",
   },
   {
-    title: "ランディングページはどのように作成しますか？",
+    title: "どのような仕様がありますか？",
     content:
-      "ランディングページの作成はいくつかのステップで行うことができます：1) キャンペーンのニーズに合ったランディングページのテンプレートを選択するか、ゼロから始めます。2) ランディングページの目的とCTAを特定します。3) 訪問者が行動を起こすよう促す魅力的なコンテンツを作成します。4) メッセージと一致する画像、ビデオ、フォームなどのデザイン要素を取り入れます。5) ページの使いやすさとモバイル対応性をテストします。6) ページが見つかるようにSEOのベストプラクティスを使用します。7) ランディングページを公開し、必要に応じて調整を行いながらそのパフォーマンスを監視します。",
+      "UK-2.5N、UK-4N、UK-6N、UK-10N など複数の仕様を用意。電流容量や適用導線範囲がそれぞれ異なり、用途に応じて選べます。",
   },
   {
-    title: "ランディングページが重要な理由は何ですか？",
+    title: "主な特長は？",
     content:
-      "ランディングページは、訪問者をリードや顧客に変換するためのターゲットされたプラットフォームを提供するため、あらゆるマーケティング戦略にとって不可欠です。一般的なウェブサイトとは異なり、ランディングページは訪問者の注意を単一のオファーに集中させ、気晴らしを最小限に抑え、特定のアクションに導くことに焦点を当てています。この集中的なアプローチは、マーケティングキャンペーンの効果を著しく高め、広告のパフォーマンスを改善し、訪問者が求めていた情報や解決策を提供することで全体的なユーザー体験を向上させることができます。",
+      "1) 高品質材料で長期安定; 2) 低接触抵抗; 3) しっかり固定; 4) 取り付け容易; 5) IEC等の基準に適合。",
   },
   {
-    title: "なぜ私たちのランディングページのボイラープレートを選ぶのですか？",
+    title: "適切なモデルの選び方は？",
     content:
-      "私たちのランディングページのテンプレートは無料で、オープンソースで、強力であり、さまざまなプロジェクトやマーケティングキャンペーンに理想的です。1時間以内にランディングページを作成できることで、開発プロセスを簡素化しながら、高度なカスタマイズ性と応答性を提供します。",
+      "導線断面積、電流、電圧、設置スペース、環境条件を考慮してください。選定は当社エンジニアにご相談ください。",
   },
   {
-    title: "このテンプレートを使用するために必要なスキルは何ですか？",
+    title: "品質保証は？",
     content:
-      "当社のランディングページテンプレートを使用するには、基本的なウェブ編集スキルだけが必要です。このテンプレートのデザインは、技術的でないユーザーが簡単に始められるように意図されていますが、経験豊富な開発者にも高いカスタマイズ性を提供します。",
+      "ISO9001に準拠して生産・検査を実施。IEC/GBに適合し、関連認証を取得。保証とアフターサービスを提供します。",
   },
   {
-    title: "ランディングページテンプレートを使い始めるにはどうすればいいですか？",
+    title: "正しい取り付け方法は？",
     content:
-      "始めるのは非常に簡単です。GitHubリポジトリからソースコードをダウンロードし、必要に応じてテキストや画像を編集してから、サーバーにデプロイします。",
+      "手順：1) 電源遮断; 2) 導線サイズ確認; 3) 適正長を剥離; 4) 挿入しネジ締め; 5) 固定確認; 6) 絶縁試験。詳細は取扱説明書を参照。",
   },
   {
-    title: "ランディングページテンプレートはレスポンシブデザインに対応していますか？",
+    title: "対応業界は？",
     content:
-      "はい、当社のランディングページテンプレートはレスポンシブデザインに対応しており、デスクトップ、タブレット、スマートフォンなど、さまざまなデバイスで完璧に表示されます。",
+      "産業オートメーション、配電、機械、建築電気、鉄道、再エネなど幅広く対応します。",
   },
   {
-    title: "商業プロジェクトでこのテンプレートを使用できますか？",
+    title: "技術サポートは？",
     content:
-      "もちろんです。テンプレートはオープンソースであり、商業目的を含むあらゆる種類のプロジェクトで使用できます。オンラインプロジェクトを作成して最適化するために、このテンプレートを使用することをユーザーに奨励しています。",
+      "電話・メールで技術チームへ。技術相談、選定支援、ソリューションを提供します。",
   },
   {
-    title: "カスタマイズサービスを提供していますか？",
+    title: "納期は？",
     content:
-      "有料のランディングページのカスタム開発を受け付けています。メールweijunext@gmail.comまたはTwitter @weijunextでお問い合わせください。",
+      "標準品は在庫があり通常1〜3営業日で出荷。特注や大口は別途ご案内します。",
   },
   {
-    title: "このテンプレートを使用する際に制限はありますか？",
+    title: "カスタム対応は可能？",
     content:
-      "いいえ。このテンプレートを自由に使用および変更することができます。同時に、開発者がPRを提出して、このランディングページテンプレートを一緒に改善することを奨励しています。",
+      "はい。特別仕様・材料・マーキングなどに対応します。要件を提示いただければ評価・見積します。",
   },
   {
-    title: "このテンプレートにはSEO最適化機能が含まれていますか？",
+    title: "営業への連絡方法は？",
     content:
-      "はい、テンプレートには基本的なSEO最適化機能が含まれており、検索エンジンでのウェブページのランキング向上に役立ちます。",
+      "電話・メール・ご来社でお問い合わせください。製品情報、見積、受注を承ります。",
   },
   {
-    title: "テンプレートの使用中に問題に遭遇した場合、どうすればよいですか？",
+    title: "保証ポリシーは？",
     content:
-      "テンプレートの使用中に問題が発生した場合は、Twitter @weijunextでお問い合わせください。",
+      "正常使用下での品質問題は無償交換・修理に対応。詳細は保証書またはカスタマーサポートへ。",
   },
 ];
 
-
 export const FAQS_AR = [
   {
-    title: "ما هي صفحة الهبوط؟",
+    title: "ما هي كتل端ات سلسلة UK؟",
     content:
-      "صفحة الهبوط هي صفحة ويب منفصلة تم إنشاؤها خصيصًا لحملة تسويقية أو إعلانية. هذا هو المكان الذي ينتقل إليه الزائر بعد النقر على رابط في بريد إلكتروني أو إعلانات من Google أو Bing أو YouTube أو Facebook أو Instagram أو Twitter أو أماكن مماثلة على الويب. على عكس صفحات الويب التي لديها عادةً العديد من الأهداف وتشجع الاستكشاف، يتم تصميم صفحات الهبوط بهدف واحد محدد، وهو ما يُعرف باسم إجراء الدعوة (CTA).",
+      "كتل端ات سلسلة UK هي منتجات توصيل كهربائي عالية الجودة من ونزو يو يي. تتميز بموصلية ممتازة وقوة ميكانيكية، وتستخدم على نطاق واسع في الأتمتة الصناعية وتوزيع الطاقة والمعدات.",
   },
   {
-    title: "كيف يمكنني إنشاء صفحة هبوط؟",
+    title: "ما المواصفات المتوفرة؟",
     content:
-      "يمكن إنشاء صفحة هبوط في عدة خطوات: 1) اختر قالبًا لصفحة الهبوط يناسب احتياجات حملتك أو ابدأ من الصفر. 2) حدد الهدف من صفحة الهبوط وإجراء الدعوة. 3) اكتب محتوى جذابًا يحث الزوار على اتخاذ إجراء. 4) ضمِّن عناصر تصميم مثل الصور والفيديوهات والنماذج التي تتماشى مع رسالتك. 5) اختبر قابلية استخدام الصفحة واستجابتها للجوال. 6) اتبع أفضل ممارسات SEO لمساعدة صفحتك على الظهور. 7) انشر صفحة الهبوط الخاصة بك وراقب أدائها لإجراء التعديلات اللازمة.",
+      "UK-2.5N وUK-4N وUK-6N وUK-10N وغيرها. لكل طراز سعة تيار ونطاق سلك مناسب لتلبية سيناريوهات مختلفة.",
   },
   {
-    title: "لماذا تعتبر صفحة الهبوط مهمة؟",
+    title: "ما المزايا الرئيسية؟",
     content:
-      "تعتبر صفحات الهبوط أساسية لأي استراتيجية تسويقية لأنها توفر منصة موجهة لتحويل الزوار إلى عملاء أو عملاء محتملين. على عكس مواقع الويب العامة، تركز صفحات الهبوط انتباه الزائر على عرض واحد، مما يقلل من المشتتات ويوجههم نحو إجراء محدد. يمكن أن يؤدي هذا النهج المركز إلى زيادة فعالية حملاتك التسويقية بشكل كبير، وتحسين أداء الإعلانات، وتعزيز تجربة المستخدم الإجمالية من خلال توفير المعلومات أو الحل الذي كانوا يبحثون عنه.",
+      "1) مواد عالية الجودة لاستقرار طويل الأمد؛ 2) مقاومة تلامس منخفضة؛ 3) تثبيت موثوق؛ 4) تركيب سهل؛ 5) مطابقة للمعايير الدولية IEC وغيرها.",
   },
   {
-    title: "لماذا اختيار قالب صفحة الهبوط الخاص بنا؟",
+    title: "كيف أختار الطراز المناسب؟",
     content:
-      "إن قالب صفحة الهبوط الخاص بنا مجاني ومفتوح المصدر وقوي، مما يجعله مثاليًا لمختلف المشاريع والحملات التسويقية. يتيح لك إنشاء صفحة هبوط في أقل من ساعة، مما يبسط عملية التطوير مع توفير درجة عالية من إمكانية التخصيص والاستجابة للجوال.",
+      "انظر إلى مقطع السلك، التيار، الجهد، مساحة التركيب، والبيئة. استشر مهندسينا لاختيار مناسب.",
   },
   {
-    title: "ما المهارات التي أحتاجها لاستخدام هذا القالب؟",
+    title: "كيف نضمن الجودة؟",
     content:
-      "لاستخدام قالب صفحة الهبوط الخاص بنا، ستحتاج فقط إلى مهارات أساسية في تحرير الويب. تم تصميم هذا القالب ليكون سهل الاستخدام بالنسبة للمستخدمين غير الفنيين، بينما يوفر أيضًا درجة عالية من إمكانية التخصيص للمطورين ذوي الخبرة.",
+      "تصنيع وفق ISO9001 مع فحوصات صارمة. مطابقة لمعايير IEC/GB مع شهادات ذات صلة. نوفر الضمان وخدمات ما بعد البيع.",
   },
   {
-    title: "كيف أبدأ باستخدام قالب صفحة الهبوط؟",
+    title: "كيف يتم التركيب الصحيح؟",
     content:
-      "البدء هو أمر بسيط. ما عليك سوى تنزيل الكود المصدري من مستودعنا على GitHub، وتحرير النص والصور حسب الحاجة، ثم نشره على خادمك.",
+      "الخطوات: 1) فصل الطاقة؛ 2) اختيار حجم السلك المناسب؛ 3) تعرية الطول المناسب؛ 4) الإدخال والشد؛ 5) فحص التثبيت؛ 6) اختبار العزل.",
   },
   {
-    title: "هل يدعم قالب صفحة الهبوط التصميم المستجيب؟",
+    title: "في أي قطاعات تُستخدم؟",
     content:
-      "نعم، يدعم قالب صفحة الهبوط الخاص بنا التصميم المستجيب، مما يضمن عرض صفحتك الإلكترونية بشكل مثالي على مجموعة متنوعة من الأجهزة، سواء كانت أجهزة سطح المكتب أو الأجهزة اللوحية أو الهواتف الذكية.",
+      "الأتمتة الصناعية، توزيع الطاقة، تصنيع الآلات، كهرباء المباني، السكك الحديدية، والطاقة المتجددة.",
   },
   {
-    title: "هل يمكنني استخدام هذا القالب لمشروع تجاري؟",
+    title: "كيف أحصل على الدعم الفني؟",
     content:
-      "بالتأكيد. إن قالب المصدر هذا مفتوح المصدر، ويمكنك استخدامه لأي نوع من المشاريع، بما في ذلك الأغراض التجارية. نحن نشجع المستخدمين على استخدام هذا القالب لإنشاء وتحسين مشاريعهم عبر الإنترنت.",
+      "تواصل مع فريقنا عبر الهاتف أو البريد. نقدم الاستشارات الفنية والاختيار والحلول.",
   },
   {
-    title: "هل تقدمون خدمات تخصيص؟",
+    title: "ما مدة التسليم؟",
     content:
-      "نحن نقبل التطوير المخصص المدفوع لصفحات الهبوط. يرجى التواصل معنا عبر البريد الإلكتروني على weijunext@gmail.com أو تويتر @weijunext.",
+      "الطرازات القياسية متوفرة وتشحن خلال 1-3 أيام عمل. الخاصة أو الكبيرة تعتمد على الحالة.",
   },
   {
-    title: "هل هناك قيود على استخدام هذا القالب؟",
+    title: "هل تقدمون تخصيصًا؟",
     content:
-      "لا. أنت حر في استخدام وتعديل هذا القالب. في الوقت نفسه، نشجع المطورين على تقديم طلبات المراجعة للمساعدة في تحسين هذا قالب صفحة الهبوط معًا.",
+      "نعم، ندعم المواصفات/المواد/الوسم الخاصة. قدم متطلباتك للتقييم والتسعير.",
   },
   {
-    title: "هل يتضمن هذا القالب ميزات تحسين محركات البحث (SEO)؟",
+    title: "كيف أتواصل مع المبيعات؟",
     content:
-      "نعم، يتضمن قالبنا ميزات تحسين محركات البحث الأساسية للمساعدة في تحقيق تصنيفات أفضل لصفحتك الإلكترونية في محركات البحث.",
+      "عبر الهاتف أو البريد أو الزيارة للحصول على المعلومات والعروض والطلبات.",
   },
   {
-    title: "ماذا يجب أن أفعل إذا واجهت مشكلات أثناء استخدام القالب؟",
+    title: "ما سياسة الضمان؟",
     content:
-      "إذا واجهت أي مشكلات أثناء استخدام القالب، فيرجى التواصل معنا عبر تويتر @weijunext.",
+      "ضمان جودة في ظروف الاستخدام العادي، مع استبدال أو إصلاح للمشكلات ضمن شروط الضمان.",
   },
 ];
 
 export const FAQS_ES = [
   {
-    title: "¿Qué es una página de destino?",
+    title: "¿Qué es la serie de bornes UK?",
     content:
-      "Una página de destino es una página web independiente creada específicamente para una campaña de marketing o publicidad. Es el lugar donde un visitante 'aterriza' después de hacer clic en un enlace en un correo electrónico o en anuncios de Google, Bing, YouTube, Facebook, Instagram, Twitter o lugares similares en la web. A diferencia de las páginas web, que típicamente tienen muchos objetivos y fomentan la exploración, las páginas de destino se diseñan con un solo enfoque u objetivo, conocido como una acción de llamada (CTA).",
+      "Los bornes de la serie UK son productos de conexión eléctrica de alta calidad fabricados por Wenzhou Yuyi Electric. Ofrecen excelente conductividad y resistencia mecánica, ampliamente usados en automatización industrial y distribución eléctrica.",
   },
   {
-    title: "¿Cómo puedo crear una página de destino?",
+    title: "¿Qué especificaciones hay?",
     content:
-      "Crear una página de destino se puede hacer en varios pasos: 1) Elige una plantilla de página de destino que se adapte a las necesidades de tu campaña o comienza desde cero. 2) Identifica el objetivo y la CTA de tu página de destino. 3) Escribe un contenido convincente que anime a los visitantes a tomar medidas. 4) Incorpora elementos de diseño como imágenes, videos y formularios que se alineen con tu mensaje. 5) Prueba la usabilidad y la capacidad de respuesta móvil de tu página. 6) Utiliza las mejores prácticas de SEO para ayudar a que tu página se encuentre. 7) Publica tu página de destino y monitorea su rendimiento para hacer ajustes según sea necesario.",
+      "UK-2.5N, UK-4N, UK-6N, UK-10N, etc. Cada modelo tiene capacidad de corriente y rango de cable correspondientes.",
   },
   {
-    title: "¿Por qué es importante una página de destino?",
+    title: "¿Cuáles son las características principales?",
     content:
-      "Las páginas de destino son cruciales para cualquier estrategia de marketing porque proporcionan una plataforma específica para convertir a los visitantes en clientes potenciales o clientes. A diferencia de los sitios web generales, las páginas de destino enfocan la atención del visitante en una oferta única, minimizando las distracciones y guiándolos hacia una acción específica. Este enfoque centrado puede aumentar significativamente la efectividad de tus campañas de marketing, mejorar el rendimiento de tus anuncios y mejorar la experiencia general del usuario al brindarles la información o la solución que estaban buscando.",
+      "1) Materiales de alta calidad; 2) Baja resistencia de contacto; 3) Sujeción fiable; 4) Instalación sencilla; 5) Cumplimiento con normas IEC.",
   },
   {
-    title: "¿Por qué elegir nuestra plantilla de página de destino?",
+    title: "¿Cómo elegir el modelo adecuado?",
     content:
-      "Nuestra plantilla de página de destino es gratuita, de código abierto y poderosa, lo que la convierte en ideal para diversos proyectos y campañas de marketing. Te permite crear una página de destino en menos de una hora, simplificando el proceso de desarrollo y ofreciendo también un alto grado de personalización y capacidad de respuesta.",
+      "Considere la sección del cable, corriente, tensión, espacio de instalación y entorno. Consulte a nuestros ingenieros para la selección.",
   },
   {
-    title: "¿Qué habilidades necesito para usar esta plantilla?",
+    title: "¿Cómo garantizan la calidad?",
     content:
-      "Para usar nuestra plantilla de página de destino, solo necesitas habilidades básicas de edición web. El diseño de la plantilla está pensado para que los usuarios no técnicos puedan comenzar fácilmente, mientras que también ofrece una alta personalización para desarrolladores experimentados.",
+      "Producción bajo ISO9001 con inspecciones estrictas. Cumple IEC/GB y cuenta con certificaciones. Ofrecemos garantía y servicio postventa.",
   },
   {
-    title: "¿Cómo puedo empezar con la plantilla de página de destino?",
+    title: "¿Cómo instalar correctamente?",
     content:
-      "Empezar es muy sencillo. Simplemente descarga el código fuente de nuestro repositorio de GitHub, edita el texto y las imágenes según sea necesario y luego despliégalo en tu servidor.",
+      "Pasos: 1) Cortar la energía; 2) Seleccionar el cable adecuado; 3) Pelar longitud apropiada; 4) Insertar y ajustar; 5) Verificar firmeza; 6) Prueba de aislamiento.",
   },
   {
-    title: "¿La plantilla de página de destino admite diseño receptivo?",
+    title: "¿En qué industrias se usa?",
     content:
-      "Sí, nuestra plantilla de página de destino admite diseño receptivo, lo que asegura que tu página web se muestre perfectamente en una variedad de dispositivos, ya sean de escritorio, tableta o teléfono inteligente.",
+      "Automatización industrial, distribución eléctrica, maquinaria, instalaciones eléctricas, ferrocarril y energías renovables.",
   },
   {
-    title: "¿Puedo usar esta plantilla para un proyecto comercial?",
+    title: "¿Cómo obtener soporte técnico?",
     content:
-      "Absolutamente. Nuestra plantilla es de código abierto y puedes usarla para cualquier tipo de proyecto, incluidos fines comerciales. Alentamos a los usuarios a utilizar esta plantilla para crear y optimizar sus proyectos en línea.",
+      "Contáctanos por teléfono o correo. Ofrecemos asesoría técnica, selección y soluciones.",
   },
   {
-    title: "¿Ofrecen servicios de personalización?",
+    title: "¿Cuál es el plazo de entrega?",
     content:
-      "Aceptamos el desarrollo personalizado de páginas de destino a pedido. Por favor, contáctanos por correo electrónico a weijunext@gmail.com o en Twitter @weijunext.",
+      "Modelos estándar en stock: 1–3 días laborables. Especiales o grandes: según el caso.",
   },
   {
-    title: "¿Hay alguna restricción para usar esta plantilla?",
+    title: "¿Ofrecen personalización?",
     content:
-      "No. Eres libre de usar y modificar esta plantilla. Al mismo tiempo, alentamos a los desarrolladores a enviar solicitudes de extracción (PR) para ayudar a mejorar esta plantilla de página de destino juntos.",
+      "Sí, admitimos especificaciones/materiales/marcados especiales. Envíe requisitos para evaluación y cotización.",
   },
   {
-    title: "¿Esta plantilla incluye funciones de optimización SEO?",
+    title: "¿Cómo contactar ventas?",
     content:
-      "Sí, nuestra plantilla incluye funciones básicas de optimización SEO para ayudar a que tu página web logre mejores posiciones en los motores de búsqueda.",
+      "Por teléfono, correo o visita para información, precios y pedidos.",
   },
   {
-    title: "¿Qué debo hacer si tengo problemas al usar la plantilla?",
+    title: "¿Cuál es la política de garantía?",
     content:
-      "Si encuentras problemas mientras usas la plantilla, comunícate con nosotros a través de Twitter @weijunext.",
+      "Garantía de calidad en uso normal con reemplazo o reparación por fallas de calidad dentro del período de garantía.",
   },
 ];
 
 export const FAQS_RU = [
   {
-    title: "Что такое целевая страница?",
+    title: "Что такое клеммы серии UK?",
     content:
-      "Целевая страница - это отдельная веб-страница, специально созданная для маркетинговой или рекламной кампании. Это место, где посетитель 'приземляется' после нажатия на ссылку в электронном письме или рекламе в Google, Bing, YouTube, Facebook, Instagram, Twitter или других подобных местах в Интернете. В отличие от веб-страниц, которые, как правило, имеют множество целей и поощряют исследование, целевые страницы разработаны с единственной фокусной точкой или целью, известной как призыв к действию (CTA).",
+      "Клеммы серии UK — это высококачественные изделия для электрических соединений от Wenzhou Yuyi Electric. Обладают отличной проводимостью и механической прочностью, широко применяются в промышленной автоматизации и распределении энергии.",
   },
   {
-    title: "Как я могу создать целевую страницу?",
+    title: "Какие есть спецификации?",
     content:
-      "Создание целевой страницы можно выполнить в несколько шагов: 1) Выберите шаблон целевой страницы, который соответствует потребностям вашей кампании, или начните с нуля. 2) Определите цель вашей целевой страницы и CTA. 3) Напишите убедительный контент, который побудит посетителей предпринять действие. 4) Включите элементы дизайна, такие как изображения, видео и формы, которые соответствуют вашему сообщению. 5) Протестируйте удобство использования и мобильную адаптивность вашей страницы. 6) Используйте лучшие практики SEO, чтобы помочь вашей странице быть найденной. 7) Опубликуйте вашу целевую страницу и отслеживайте ее производительность, чтобы вносить необходимые коррективы.",
+      "UK-2.5N, UK-4N, UK-6N, UK-10N и др. У каждого — своя токовая нагрузка и диапазон проводов.",
   },
   {
-    title: "Почему важна целевая страница?",
+    title: "Основные особенности?",
     content:
-      "Целевые страницы имеют решающее значение для любой маркетинговой стратегии, поскольку они обеспечивают ориентированную платформу для превращения посетителей в потенциальных клиентов или клиентов. В отличие от общих веб-сайтов, целевые страницы фокусируют внимание посетителя на единственном предложении, сводя к минимуму отвлекающие факторы и направляя их к конкретному действию. Этот сфокусированный подход может значительно повысить эффективность ваших маркетинговых кампаний, улучшить производительность рекламы и улучшить общий пользовательский опыт, предоставляя им информацию или решение, которое они искали.",
+      "1) Качественные материалы; 2) Низкое переходное сопротивление; 3) Надежное крепление; 4) Простота монтажа; 5) Соответствие стандартам IEC.",
   },
   {
-    title: "Почему выбрать наш шаблон целевой страницы?",
+    title: "Как выбрать подходящую модель?",
     content:
-      "Наш шаблон целевой страницы является бесплатным, с открытым исходным кодом и мощным, что делает его идеальным для различных проектов и маркетинговых кампаний. Он позволяет создать целевую страницу менее чем за час, упрощая процесс разработки, а также предлагая высокую степень кастомизации и адаптивности.",
+      "Учитывайте сечение провода, ток, напряжение, монтажное пространство и условия среды. Обратитесь к нашим инженерам для подбора.",
   },
   {
-    title: "Какие навыки мне нужны, чтобы использовать этот шаблон?",
+    title: "Как обеспечивается качество?",
     content:
-      "Для использования нашего шаблона целевой страницы вам понадобятся только базовые навыки веб-редактирования. Дизайн шаблона рассчитан на то, чтобы быть легким для использования неопытными пользователями, в то же время предоставляя высокую степень кастомизации для опытных разработчиков.",
+      "Производство по ISO9001, строгий контроль. Соответствие IEC/GB, наличие сертификатов. Предоставляется гарантия и постпродажное обслуживание.",
   },
   {
-    title: "Как я могу начать работу с шаблоном целевой страницы?",
+    title: "Как правильно монтировать?",
     content:
-      "Начать очень просто. Просто скачайте исходный код из нашего репозитория GitHub, отредактируйте текст и изображения по мере необходимости, а затем разверните его на своем сервере.",
+      "Шаги: 1) Отключить питание; 2) Подобрать провод; 3) Снять изоляцию нужной длины; 4) Вставить и зажать; 5) Проверить крепление; 6) Испытание изоляции.",
   },
   {
-    title: "Поддерживает ли шаблон целевой страницы адаптивный дизайн?",
+    title: "В каких отраслях используется?",
     content:
-      "Да, наш шаблон целевой страницы поддерживает адаптивный дизайн, что гарантирует, что ваша веб-страница будет идеально отображаться на различных устройствах, будь то настольный компьютер, планшет или смартфон.",
+      "Промышл. автоматизация, распределение электроэнергии, машиностроение, электроснабжение зданий, ж/д транспорт, ВИЭ.",
   },
   {
-    title: "Могу ли я использовать этот шаблон для коммерческого проекта?",
+    title: "Как получить техподдержку?",
     content:
-      "Абсолютно. Наш шаблон с открытым исходным кодом, и вы можете использовать его для любого типа проекта, включая коммерческие цели. Мы поощряем пользователей использовать этот шаблон для создания и оптимизации их онлайн-проектов.",
+      "Свяжитесь по телефону или email. Предоставим консультации, подбор и решения.",
   },
   {
-    title: "Предлагаете ли вы услуги по кастомизации?",
+    title: "Какой срок поставки?",
     content:
-      "Мы принимаем заказные разработки целевых страниц. Пожалуйста, свяжитесь с нами по электронной почте weijunext@gmail.com или в Twitter @weijunext.",
+      "Стандартные модели на складе: 1–3 раб. дня. Особые/крупные — по согласованию.",
   },
   {
-    title: "Есть ли какие-либо ограничения на использование этого шаблона?",
+    title: "Есть ли кастомизация?",
     content:
-      "Нет. Вы можете свободно использовать и изменять этот шаблон. В то же время мы призываем разработчиков отправлять запросы на слияние, чтобы помочь улучшить этот шаблон целевой страницы вместе.",
+      "Да, поддерживаем спец. требования по спецификациям/материалам/маркировке. Предоставьте ТЗ для оценки и предложения.",
   },
   {
-    title: "Включает ли этот шаблон функции оптимизации SEO?",
+    title: "Как связаться с отделом продаж?",
     content:
-      "Да, наш шаблон включает базовые функции оптимизации SEO, чтобы помочь вашей веб-странице достичь лучших позиций в поисковых системах.",
+      "Телефон, email или визит — предоставим информацию, цену и оформление заказа.",
   },
   {
-    title: "Что мне делать, если я столкнусь с проблемами при использовании шаблона?",
+    title: "Какова гарантия?",
     content:
-      "Если вы столкнетесь с какими-либо проблемами при использовании шаблона, пожалуйста, свяжитесь с нами через Twitter @weijunext.",
+      "Гарантия качества при нормальной эксплуатации. Замена/ремонт при проблемах в гарантийный период.",
   },
 ];
 
@@ -390,4 +389,4 @@ export const ALL_FAQS: FAQSCollection = {
   FAQS_AR,
   FAQS_ES,
   FAQS_RU,
-}
+};

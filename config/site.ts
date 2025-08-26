@@ -1,27 +1,23 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
-
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+import { MdEmail, MdPhone } from "react-icons/md";
 
 const baseSiteConfig = {
-  name: "Landing page boilerplate",
+  name: "温州裕亿电器有限公司",
   description:
-    "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://landingpage.weijunext.com",
-  ogImage: "https://landingpage.weijunext.com/og.png",
+    "专业生产UK系列通用接线端子、接线端子排等电气连接产品，为客户提供高品质的电气解决方案。",
+  url: "https://yuyi-electric.com",
+  ogImage: "https://yuyi-electric.com/og.png",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["接线端子", "UK系列", "通用接线端子", "电气连接", "温州裕亿电器", "接线端子排"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      name: "温州裕亿电器有限公司",
+      url: "https://yuyi-electric.com",
+      twitter: "https://yuyi-electric.com/contact",
     }
   ],
-  creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  creator: '温州裕亿电器',
+  openSourceURL: 'https://github.com/yuyi-electric/landing-page',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -33,24 +29,19 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
+    { name: 'phone', href: "tel:+86-577-12345678", icon: MdPhone }
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+    { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
+    { name: 'phone', href: "tel:+86-577-12345678", icon: MdPhone }
   ],
   footerProducts: [
-    { url: 'https://nexty.dev/', name: 'SaaS Starter' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
-    { url: 'https://weijunext.com/', name: 'J实验室' },
-    { url: 'https://nextjscn.org/', name: 'Next.js 中文文档' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
+    { url: '/products', name: 'UK系列通用接线端子' },
+    { url: '/products', name: '接线端子排' },
+    { url: '/products', name: '电气连接器' },
+    { url: '/about', name: '关于我们' },
+    { url: '/contact', name: '联系我们' },
   ]
 }
 
@@ -58,7 +49,7 @@ export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "zh_CN",
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
     images: [`${baseSiteConfig.url}/og.png`],

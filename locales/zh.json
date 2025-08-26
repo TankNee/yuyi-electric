@@ -1,47 +1,140 @@
 {
+  "Nav": { "features": "产品特点", "pricing": "产品系列", "testimonials": "客户评价", "faq": "常见问题" },
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
+    "title1": "专业制造",
+    "title2": "电气连接解决方案",
     "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "description": "温州裕亿电器有限公司专业生产UK系列通用接线端子、接线端子排等电气连接产品，为客户提供高品质、可靠的电气解决方案。",
+    "viewProducts": "查看产品"
   },
-  "SocialProof": {
-    "maker": "制作者快速开发"
-  },
-  "Showcase": {
-    "title": "Showcase",
-    "description": "与1000+创作者一起，使用我们的落地页模板提升转化率"
-  },
-  "Feature": {
-    "title": "Feature"
-  },
+  "SocialProof": { "maker": "专业电气制造商" },
+  "Showcase": { "title": "产品展示", "description": "我们的UK系列通用接线端子广泛应用于各种电气设备和控制系统中" },
+  "Feature": { "title": "产品特点" },
   "Pricing": {
-    "title": "定价",
-    "title2": "拥有无限访问权限",
-    "description": "你当前查看的页面是一个开源的、免费的模板。",
-    "doYouLike": "你喜欢这个落地页模板吗？",
-    "follow": "关注我的推特。"
+    "title": "产品系列",
+    "title2": "全系列电气连接产品",
+    "description": "我们提供完整的UK系列接线端子产品线，满足不同应用需求。",
+    "doYouLike": "需要了解更多产品信息？",
+    "follow": "联系我们获取详细资料。"
   },
   "Testimonials": {
-    "title": "Testimonials",
-    "description1": "如果你使用这个落地页模板并在推特上推荐了，",
-    "description2": "请告诉我",
-    "description3": "，我会在这里展示你的推文和推荐。"
+    "title": "客户评价",
+    "description1": "我们致力于为客户提供优质的产品和服务，",
+    "description2": "赢得了众多客户的信赖",
+    "description3": "和好评。"
   },
-  "FAQ": {
-    "title": "FAQs",
-    "description": "这里有一些最常见的问题。"
-  },
+  "FAQ": { "title": "常见问题", "description": "关于我们产品的一些常见问题解答。" },
   "CTA": {
-    "title": "立即构建你的落地页",
-    "description1": "构建",
-    "description2": "你的落地页，",
-    "description3": "展示",
-    "description4": "你的产品，并开始",
-    "description5": "赚取收入",
-    "description6": "！"
+    "title": "联系我们获取更多信息",
+    "description1": "了解", "description2": "我们的产品，", "description3": "获取", "description4": "专业的技术支持，", "description5": "提升", "description6": "您的项目效率！"
   },
-  "CTAButton": {
-    "title": "获取源码"
+  "CTAButton": { "title": "联系我们" },
+
+  "About": {
+    "heroTitle": "关于温州裕亿电器",
+    "heroDesc": "专业的电气连接产品制造商，致力于为客户提供高品质、可靠的电气解决方案",
+    "company": {
+      "title": "公司简介",
+      "paragraphs": [
+        "温州裕亿电器有限公司成立于2010年，专注电气连接产品的研发、生产与销售。",
+        "主打UK系列通用接线端子，广泛应用于电力、自动化、轨道交通、新能源等行业。",
+        "秉承“质量第一、客户至上、持续创新”的理念，为客户持续创造价值。"
+      ]
+    },
+    "stats": {
+      "title": "企业数据",
+      "items": [
+        { "value": "15+", "label": "年行业经验" },
+        { "value": "500+", "label": "合作客户" },
+        { "value": "50+", "label": "产品型号" },
+        { "value": "100%", "label": "质量保证" }
+      ]
+    },
+    "values": {
+      "title": "企业价值观",
+      "items": [
+        { "icon": "🎯", "title": "质量第一", "desc": "严格控制每道工序，确保产品稳定可靠。" },
+        { "icon": "🤝", "title": "客户至上", "desc": "快速响应需求，提供专业技术支持与售后服务。" },
+        { "icon": "💡", "title": "持续创新", "desc": "持续投入研发与工艺优化，提升产品性能。" }
+      ]
+    },
+    "capabilities": {
+      "title": "生产能力",
+      "items": [
+        { "icon": "🏭", "title": "现代化工厂", "desc": "5000平方米现代化生产基地。" },
+        { "icon": "⚙️", "title": "先进设备", "desc": "引进国际先进生产与检测设备。" },
+        { "icon": "👥", "title": "专业团队", "desc": "经验丰富的工程与管理团队。" },
+        { "icon": "📋", "title": "质量认证", "desc": "通过ISO9001、CE等多项认证。" }
+      ]
+    },
+    "quality": {
+      "title": "质量保证",
+      "items": [
+        { "title": "严选原材料", "desc": "优选供应商与材料，保证基础品质。" },
+        { "title": "全程监控", "desc": "关键工序在线监控与抽检。" },
+        { "title": "完善检测", "desc": "电气/机械/阻燃等全项测试。" },
+        { "title": "持续改进", "desc": "PDCA闭环，持续优化品质。" }
+      ]
+    },
+    "cert": {
+      "title": "认证资质",
+      "items": [
+        "ISO 9001:2015 质量管理体系认证",
+        "CE 欧盟安全认证",
+        "RoHS 环保认证",
+        "CCC 中国强制性产品认证"
+      ]
+    },
+    "contact": {
+      "title": "联系我们",
+      "desc": "欢迎与我们联系，了解更多产品信息或洽谈合作",
+      "infoTitle": "联系方式",
+      "addressTitle": "公司地址",
+      "email": "info@yuyi-electric.com",
+      "phone": "+86-577-12345678",
+      "fax": "+86-577-12345679",
+      "addressLines": ["浙江省温州市乐清市", "柳市镇工业区", "邮编：325604"]
+    }
+  },
+
+  "Products": {
+    "heroTitle": "UK系列通用接线端子",
+    "heroDesc": "专业制造，广泛应用于电气设备与自动化控制，为您提供可靠的连接方案。",
+    "features": {
+      "title": "产品特点",
+      "items": [
+        { "title": "多种规格", "desc": "2.5/4/6/10mm²等规格，覆盖多电流需求。" },
+        { "title": "优质材料", "desc": "阻燃PA66外壳，绝缘性能与强度兼备。" },
+        { "title": "安装便捷", "desc": "标准35mm DIN导轨，装配维护省时。" },
+        { "title": "安全可靠", "desc": "符合IEC标准并通过CE认证。" },
+        { "title": "多色可选", "desc": "灰/蓝/黄绿/红等颜色，便于识别。" },
+        { "title": "广泛应用", "desc": "配电柜、控制柜、机械等多场景适用。" }
+      ]
+    },
+    "specs": {
+      "title": "技术参数",
+      "headers": ["型号", "截面积", "额定电流", "额定电压", "导线范围"],
+      "rows": [
+        ["UK-2.5N", "2.5mm²", "24A", "800V", "0.2–2.5mm²"],
+        ["UK-4N", "4mm²", "32A", "800V", "0.2–4mm²"],
+        ["UK-6N", "6mm²", "41A", "800V", "0.2–6mm²"],
+        ["UK-10N", "10mm²", "57A", "800V", "0.5–10mm²"]
+      ]
+    },
+    "applications": {
+      "title": "应用领域",
+      "items": [
+        { "icon": "⚡", "title": "配电系统", "desc": "配电柜、开关柜等设备。" },
+        { "icon": "🏭", "title": "工业自动化", "desc": "PLC与自动化产线。" },
+        { "icon": "🏢", "title": "建筑电气", "desc": "楼宇自动化与照明控制。" },
+        { "icon": "🚗", "title": "交通运输", "desc": "轨道交通、船舶电气。" }
+      ]
+    },
+    "cta": {
+      "title": "需要更多产品信息？",
+      "desc": "我们的专业团队随时为您提供技术支持与定制方案。",
+      "emailBtn": "发送邮件咨询",
+      "phoneBtn": "电话咨询"
+    }
   }
 }

@@ -5,14 +5,12 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://github.com/weijunext/landing-page-boilerplate"
-      target="_blank"
-      rel="noopener noreferrer nofollow"
+      href="mailto:info@yuyi-electric.com"
     >
       <Button
         variant="default"
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
-        aria-label="Get Boilerplate"
+        aria-label="Contact Us"
       >
         <RocketIcon />
         {locale.title}

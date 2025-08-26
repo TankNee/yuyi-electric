@@ -9,17 +9,25 @@ import { useParams } from "next/navigation";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
+import en from "@/locales/en.json";
+import zh from "@/locales/zh.json";
+import ja from "@/locales/ja.json";
+import es from "@/locales/es.json";
+import ru from "@/locales/ru.json";
+import ar from "@/locales/ar.json";
 
-const links = [
-  { label: "Features", href: "#Features" },
-  { label: "Pricing", href: "#Pricing" },
-  { label: "Testimonials", href: "#Testimonials" },
-  { label: "FAQ", href: "#FAQ" },
-];
 
 const Header = () => {
   const params = useParams();
   const lang = params.lang;
+  const dicts = { en, zh, ja, es, ru, ar } as const;
+  const current: any = (dicts as any)[(lang as string) || "en"] || en;
+  const links = [
+    { label: current?.Nav?.features || "Features", href: "#Features" },
+    { label: current?.Nav?.pricing || "Pricing", href: "#Pricing" },
+    { label: current?.Nav?.testimonials || "Testimonials", href: "#Testimonials" },
+    { label: current?.Nav?.faq || "FAQ", href: "#FAQ" },
+  ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -118,7 +126,7 @@ const Header = () => {
                     {links.map((link) => (
                       <li key={link.label}>
                         <Link
-                          href={link.href}
+                          href={`/${lang === "en" ? "" : (lang as string)}${link.href}`}
                           aria-label={link.label}
                           title={link.label}
                           className="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"

@@ -1,210 +1,245 @@
-import { LucideIcon, MagnetIcon } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
-import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
+import {
+  FaCubes,
+  FaIndustry,
+  FaLayerGroup,
+  FaShieldAlt,
+  FaShippingFast,
+  FaHeadset,
+} from "react-icons/fa";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "High-quality materials",
+    content:
+      "Manufactured with flame-retardant premium materials to ensure safety and reliability, compliant with international standards.",
+    icon: FaCubes,
   },
   {
-    title: "Responsive Design",
+    title: "Precision manufacturing",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+      "Advanced processes and strict quality control ensure the accuracy and consistency of every unit.",
+    icon: FaIndustry,
   },
   {
-    title: "Easy Customization",
+    title: "Multiple specifications",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+      "A wide range of terminal models and sizes to meet diverse application needs.",
+    icon: FaLayerGroup,
   },
   {
-    title: "SEO Optimized",
+    title: "Safe and reliable",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+      "Certified safety with excellent insulation performance and mechanical strength.",
+    icon: FaShieldAlt,
   },
   {
-    title: "One-Click Deployment",
+    title: "Fast delivery",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+      "Efficient supply chain and manufacturing capacity guarantee quick delivery.",
+    icon: FaShippingFast,
   },
   {
-    title: "Globalization Support",
+    title: "Technical support",
     content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+      "A professional engineering team provides comprehensive technical support and solutions.",
+    icon: FaHeadset,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "高品质材料",
+    content:
+      "采用优质阻燃材料制造，确保产品安全可靠，符合国际标准。",
+    icon: FaCubes,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "精密制造",
+    content:
+      "先进的生产工艺和严格的质量控制，保证每个产品的精度和一致性。",
+    icon: FaIndustry,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "多规格选择",
+    content:
+      "提供多种规格和型号的接线端子，满足不同应用场景的需求。",
+    icon: FaLayerGroup,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "安全可靠",
+    content:
+      "产品通过多项安全认证，具有良好的绝缘性能和机械强度。",
+    icon: FaShieldAlt,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "快速交付",
+    content:
+      "完善的供应链管理和生产能力，确保订单快速交付。",
+    icon: FaShippingFast,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "技术支持",
+    content:
+      "专业的技术团队提供全方位的技术支持和解决方案。",
+    icon: FaHeadset,
   },
 ];
 
 export const FEATURES_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    title: "高品質材料",
+    content:
+      "難燃性の高品質材料を採用し、安全性と信頼性を確保。国際規格に適合。",
+    icon: FaCubes,
   },
   {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    title: "精密製造",
+    content:
+      "先進プロセスと厳格な品質管理で、各製品の精度と一貫性を保証。",
+    icon: FaIndustry,
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    title: "多様な規格",
+    content:
+      "多様な端子台モデル・規格で、用途に応じて選択可能。",
+    icon: FaLayerGroup,
   },
   {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    title: "安全・信頼性",
+    content:
+      "優れた絶縁性と機械的強度、各種安全認証を取得。",
+    icon: FaShieldAlt,
   },
   {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    title: "迅速な納期",
+    content:
+      "効率的なサプライチェーンと生産能力で短納期を実現。",
+    icon: FaShippingFast,
   },
   {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    title: "技術サポート",
+    content:
+      "専門エンジニアが技術サポートと最適なソリューションを提供。",
+    icon: FaHeadset,
   },
 ];
 
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    title: "مواد عالية الجودة",
+    content:
+      "مصنوعة من مواد مثبطة للهب عالية الجودة لضمان الأمان والموثوقية وتوافقاً مع المعايير الدولية.",
+    icon: FaCubes,
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    title: "تصنيع دقيق",
+    content:
+      "عمليات متقدمة وضبط جودة صارم يضمنان الدقة والاتساق في كل وحدة.",
+    icon: FaIndustry,
   },
   {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    title: "مواصفات متعددة",
+    content:
+      "مجموعة واسعة من نماذج وأحجام الطرفيات لتناسب مختلف التطبيقات.",
+    icon: FaLayerGroup,
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    title: "آمن وموثوق",
+    content:
+      "اعتمادات أمان مع عزل ممتاز وقوة ميكانيكية عالية.",
+    icon: FaShieldAlt,
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    title: "تسليم سريع",
+    content:
+      "سلسلة توريد فعّالة وقدرة إنتاجية تضمنان تسليمًا سريعًا.",
+    icon: FaShippingFast,
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    title: "دعم تقني",
+    content:
+      "فريق هندسي محترف يقدّم دعمًا تقنيًا وحلولًا متكاملة.",
+    icon: FaHeadset,
   },
 ];
 
 export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    title: "Materiales de alta calidad",
+    content:
+      "Fabricadas con materiales premium retardantes de llama para garantizar seguridad y fiabilidad, cumpliendo normas internacionales.",
+    icon: FaCubes,
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    title: "Fabricación de precisión",
+    content:
+      "Procesos avanzados y estricto control de calidad aseguran precisión y consistencia en cada unidad.",
+    icon: FaIndustry,
   },
   {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    title: "Múltiples especificaciones",
+    content:
+      "Amplia gama de modelos y tamaños de bornes para diferentes aplicaciones.",
+    icon: FaLayerGroup,
   },
   {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    title: "Seguro y fiable",
+    content:
+      "Certificaciones de seguridad con excelente aislamiento y resistencia mecánica.",
+    icon: FaShieldAlt,
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    title: "Entrega rápida",
+    content:
+      "Cadena de suministro eficiente y capacidad productiva para entregas rápidas.",
+    icon: FaShippingFast,
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    title: "Soporte técnico",
+    content:
+      "Equipo de ingeniería profesional con soporte técnico y soluciones integrales.",
+    icon: FaHeadset,
   },
 ];
 
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    title: "Высококачественные материалы",
+    content:
+      "Изготовлено из огнестойких премиальных материалов для безопасности и надёжности, соответствует международным стандартам.",
+    icon: FaCubes,
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    title: "Точное производство",
+    content:
+      "Современные процессы и строгий контроль качества обеспечивают точность и стабильность каждой единицы.",
+    icon: FaIndustry,
   },
   {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    title: "Множество спецификаций",
+    content:
+      "Широкий ассортимент клемм и размеров для различных применений.",
+    icon: FaLayerGroup,
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    title: "Безопасность и надёжность",
+    content:
+      "Сертифицированная безопасность, отличная изоляция и механическая прочность.",
+    icon: FaShieldAlt,
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    title: "Быстрая поставка",
+    content:
+      "Эффективная цепочка поставок и производственные мощности для быстрых отгрузок.",
+    icon: FaShippingFast,
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    title: "Техническая поддержка",
+    content:
+      "Профессиональная инженерная команда обеспечивает всестороннюю техническую поддержку и решения.",
+    icon: FaHeadset,
   },
 ];
 
@@ -222,5 +257,5 @@ export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_JA,
   FEATURES_AR,
   FEATURES_ES,
-  FEATURES_RU
-}
+  FEATURES_RU,
+};

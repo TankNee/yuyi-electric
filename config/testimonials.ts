@@ -2,74 +2,56 @@
 export const TestimonialsData = [
   {
     user: {
-      name: "Founder",
-      username: "weijunext",
-      image: "/images/users/weijunext.jpeg",
-    },
-    content:
-      "As a front-end developer, I'm highly satisfied with this landing page template. Editing text and images was very intuitive, and I encountered no technical hurdles throughout the process. The template's responsive design is excellent as well; whether on mobile or desktop, the page layout adapts perfectly. I managed to launch my own product's landing page in just half a day, significantly boosting my efficiency.",
-  },
-  {
-    user: {
-      name: "User1",
-      username: "weijunext",
+      name: "张工程师",
+      username: "automation_engineer",
       image: "/images/users/1.png",
     },
     content:
-      "This template has given me a new perspective on coding. As a backend developer with not much front-end experience, I found this template to be very user-friendly. I could build a professional-looking landing page with hardly any coding required. This not only saved me time but also sparked more interest in front-end development.",
+      "我们公司在自动化设备中大量使用裕亿电器的UK系列接线端子，产品质量非常稳定可靠。接线方便，导电性能优良，在高温环境下也能保持良好的性能。已经合作3年多了，从未出现过质量问题。",
   },
   {
     user: {
-      name: "User2",
-      username: "weijunext",
+      name: "李经理",
+      username: "electrical_manager",
       image: "/images/users/2.png",
     },
     content:
-      "As a developer who transitioned from design, I'm impressed with the aesthetic design of this template. It's not only easy to use but also comes with a default design that feels both modern and professional. I made some adjustments to the details to match my brand style, and the entire process was both simple and enjoyable.",
+      "作为电气工程公司的采购经理，我对裕亿电器的产品和服务都很满意。产品规格齐全，交货及时，技术支持也很到位。特别是UK-4N系列，在我们的配电项目中表现出色，客户反馈都很好。",
   },
   {
     user: {
-      name: "User3",
-      username: "weijunext",
+      name: "王技术员",
+      username: "technician_wang",
       image: "/images/users/3.png",
     },
     content:
-      "The performance of this template is outstanding, with very fast loading times and SEO-friendly features. As a developer focused on product optimization, I appreciate the high performance and optimization of the template. With simple modifications, I was able to further optimize my landing page, improving the speed at which users can access it. The SEO friendliness of the template also helped my page achieve better rankings in search engines.",
+      "在设备维护工作中，经常需要更换接线端子。裕亿电器的产品安装简便，接触可靠，大大提高了我们的工作效率。而且价格合理，性价比很高，是我们的首选品牌。",
   },
   {
     user: {
-      name: "User4",
-      username: "weijunext",
+      name: "陈总工",
+      username: "chief_engineer",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "我们在轨道交通项目中使用了大量的UK系列接线端子，产品完全符合项目的技术要求。裕亿电器的技术团队还为我们提供了专业的选型建议，确保了项目的顺利进行。",
   },
   {
     user: {
-      name: "User5",
-      username: "weijunext",
+      name: "刘主任",
+      username: "workshop_director",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "作为生产车间主任，我最关心的是产品的稳定性和可靠性。裕亿电器的接线端子在我们的生产线上运行了2年多，故障率极低，为我们节省了大量的维护成本。",
   },
   {
     user: {
-      name: "User6",
-      username: "weijunext",
-      image: "/images/users/4.png",
+      name: "赵设计师",
+      username: "design_engineer",
+      image: "/images/users/weijunext.jpeg",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
-  },
-  {
-    user: {
-      name: "User7",
-      username: "weijunext",
-      image: "/images/users/5.png",
-    },
-    content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "在电气设计工作中，选择合适的接线端子很重要。裕亿电器提供的技术资料详细，产品参数准确，帮助我们快速完成设计工作。产品质量也经得起实际应用的考验。",
   },
 ];
