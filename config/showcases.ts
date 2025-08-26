@@ -1,11 +1,3 @@
-const NEXT_PUBLIC_SHOWCASE_LIST = process.env.NEXT_PUBLIC_SHOWCASE_LIST
-
-const ENV_SHOWCASE_LIST = NEXT_PUBLIC_SHOWCASE_LIST && NEXT_PUBLIC_SHOWCASE_LIST.split(',').map(i => {
-  return {
-    url: i
-  }
-}) || []
-
 export const showcases = [
   {
     title: 'UK-2.5N 通用接线端子',
@@ -35,4 +27,4 @@ export const showcases = [
     logo: '/images/products/uk-10n.jpg',
     og: '/images/products/uk-10n-og.png'
   },
-].concat(ENV_SHOWCASE_LIST)
+]
