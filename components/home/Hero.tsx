@@ -15,6 +15,17 @@ const Hero = async ({
 }) => {
   const dict = await getDictionary(langName);
   const p = dict.Products;
+
+  const sloganMap: Record<string, string> = {
+    zh: "可靠连接，驱动未来",
+    en: "Reliable connections that power the future",
+    ja: "信頼の接続で未来を動かす",
+    ar: "وصلات موثوقة تقود المستقبل",
+    es: "Conexiones fiables que impulsan el futuro",
+    ru: "Надёжные соединения, двигающие будущее",
+  };
+  const slogan = (dict?.Hero as any)?.slogan || sloganMap[langName] || sloganMap.en;
+
   return (
     <>
       {/* <motion.div
@@ -36,9 +47,9 @@ const Hero = async ({
         className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center"
       >
         <h1>
-          <LineText>{p.heroTitle}</LineText>
+          <LineText>{slogan}</LineText>
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
+        <p className="mx-auto mt-4 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
           {p.heroDesc}
         </p>
       </section>
