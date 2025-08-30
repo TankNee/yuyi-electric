@@ -2,8 +2,9 @@ import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { getDictionary } from "@/lib/i18n";
 
-const Hero = ({
+const Hero = async ({
   locale,
   langName,
   CTALocale,
@@ -12,6 +13,8 @@ const Hero = ({
   langName: string;
   CTALocale: any;
 }) => {
+  const dict = await getDictionary(langName);
+  const p = dict.Products;
   return (
     <>
       {/* <motion.div
@@ -33,11 +36,10 @@ const Hero = ({
         className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center"
       >
         <h1>
-          {locale.title1} <LineText>{locale.title2}</LineText> {locale.title3}
+          <LineText>{p.heroTitle}</LineText>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
-          {/* {siteConfig.description} */}
-          {locale.description}
+          {p.heroDesc}
         </p>
       </section>
       {/* </motion.div> */}

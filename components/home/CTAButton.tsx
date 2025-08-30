@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="mailto:info@yuyi-electric.com"
+      href="mailto:info@yuyi.neeto.cn"
     >
       <Button
         variant="default"

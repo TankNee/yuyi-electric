@@ -5,15 +5,15 @@ const baseSiteConfig = {
   name: "温州裕亿电器有限公司",
   description:
     "专业生产UK系列通用接线端子、接线端子排等电气连接产品，为客户提供高品质的电气解决方案。",
-  url: "https://yuyi-electric.com",
-  ogImage: "https://yuyi-electric.com/og.png",
+  url: "https://yuyi.neeto.cn",
+  ogImage: "https://yuyi.neeto.cn/og.png",
   metadataBase: '/',
   keywords: ["接线端子", "UK系列", "通用接线端子", "电气连接", "温州裕亿电器", "接线端子排"],
   authors: [
     {
       name: "温州裕亿电器有限公司",
-      url: "https://yuyi-electric.com",
-      twitter: "https://yuyi-electric.com/contact",
+      url: "https://yuyi.neeto.cn",
+      twitter: "https://yuyi.neeto.cn/contact",
     }
   ],
   creator: '温州裕亿电器',
@@ -29,11 +29,11 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
+    { name: 'email', href: "mailto:info@yuyi.neeto.cn", icon: MdEmail },
     { name: 'phone', href: "tel:+86-13868776106", icon: MdPhone }
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
+    { name: 'email', href: "mailto:info@yuyi.neeto.cn", icon: MdEmail },
     { name: 'phone', href: "tel:+86-13868776106", icon: MdPhone }
   ],
   footerProducts: [
