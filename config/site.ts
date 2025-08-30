@@ -30,11 +30,11 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
-    { name: 'phone', href: "tel:+86-577-12345678", icon: MdPhone }
+    { name: 'phone', href: "tel:+86-13868776106", icon: MdPhone }
   ],
   footerLinks: [
     { name: 'email', href: "mailto:info@yuyi-electric.com", icon: MdEmail },
-    { name: 'phone', href: "tel:+86-577-12345678", icon: MdPhone }
+    { name: 'phone', href: "tel:+86-13868776106", icon: MdPhone }
   ],
   footerProducts: [
     { url: '/products', name: 'UK系列通用接线端子' },

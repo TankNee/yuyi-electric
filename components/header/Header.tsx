@@ -11,21 +11,20 @@ import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 import en from "@/locales/en.json";
 import zh from "@/locales/zh.json";
-import ja from "@/locales/ja.json";
-import es from "@/locales/es.json";
-import ru from "@/locales/ru.json";
-import ar from "@/locales/ar.json";
 
 
 const Header = () => {
   const params = useParams();
   const lang = params.lang;
-  const dicts = { en, zh, ja, es, ru, ar } as const;
+  const dicts = { en, zh } as const;
   const current: any = (dicts as any)[(lang as string) || "en"] || en;
+  const langStr = (lang as string) || "en";
+  const langPrefix = langStr === "en" ? "" : `/${langStr}`;
+  const displayName =
+    langStr === "zh" ? "温州裕亿电器有限公司" : "Wenzhou Yuyi Dianqi Youxian Gongsi";
   const links = [
     { label: current?.Nav?.features || "Features", href: "#Features" },
     { label: current?.Nav?.pricing || "Pricing", href: "#Pricing" },
-    { label: current?.Nav?.testimonials || "Testimonials", href: "#Testimonials" },
     { label: current?.Nav?.faq || "FAQ", href: "#FAQ" },
   ];
 
@@ -36,7 +35,7 @@ const Header = () => {
         {/* Left section */}
         <div className="flex items-center md:gap-x-12 flex-1">
           <Link
-            href="/"
+            href={langPrefix || "/"}
             aria-label="Landing Page Boilerplate"
             title="Landing Page Boilerplate"
             className="flex items-center space-x-1 font-bold"
@@ -49,7 +48,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              {siteConfig.name}
+              {displayName}
             </span>
           </Link>
         </div>
@@ -59,7 +58,7 @@ const Header = () => {
           {links.map((link) => (
             <li key={link.label}>
               <Link
-                href={`/${lang === "en" ? "" : lang}${link.href}`}
+                href={`${link.href.startsWith("#") ? `${langPrefix}${link.href}` : `${langPrefix}${link.href}`}`}
                 aria-label={link.label}
                 title={link.label}
                 className="tracking-wide transition-colors duration-200 font-normal"
@@ -126,7 +125,7 @@ const Header = () => {
                     {links.map((link) => (
                       <li key={link.label}>
                         <Link
-                          href={`/${lang === "en" ? "" : (lang as string)}${link.href}`}
+                          href={`${link.href.startsWith("#") ? `${langPrefix}${link.href}` : `${langPrefix}${link.href}`}`}
                           aria-label={link.label}
                           title={link.label}
                           className="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"

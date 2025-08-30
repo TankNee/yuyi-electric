@@ -4,7 +4,6 @@ import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import SocialProof from "@/components/home/SocialProof";
-import Testimonials from "@/components/home/Testimonials";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
 
 export default async function HomeIndex({ lang }: { lang: string }) {
@@ -26,9 +25,6 @@ export default async function HomeIndex({ lang }: { lang: string }) {
 
       {/* Pricing */}
       <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />
-
-      {/* Testimonials */}
-      <Testimonials id="Testimonials" locale={dict.Testimonials} />
 
       {/* FAQ (Frequently Asked Questions) */}
       <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />

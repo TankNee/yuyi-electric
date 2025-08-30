@@ -9,14 +9,14 @@ export default async function ProductsPage({
   const t = dict.Products;
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen overflow-x-hidden bg-white dark:bg-gray-900">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl leading-tight break-words font-bold text-gray-900 dark:text-white mb-6">
             {t.heroTitle}
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             {t.heroDesc}
           </p>
         </div>
@@ -28,10 +28,10 @@ export default async function ProductsPage({
           <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">
             {t.features.title}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {t.features.items?.map(
               (it: { title: string; desc: string }, idx: number) => (
-                <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md" key={idx}>
+                <div className="bg-white dark:bg-gray-700 p-4 sm:p-6 rounded-lg shadow-md" key={idx}>
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{it.title}</h3>
                   <p className="text-gray-600 dark:text-gray-300">{it.desc}</p>
                 </div>
@@ -47,7 +47,7 @@ export default async function ProductsPage({
           <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">
             {t.heroTitle}
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             {t.specs.rows?.map((row: string[], idx: number) => {
               const headers = t.specs.headers || [];
               const model = row[0] as string;
@@ -65,15 +65,15 @@ export default async function ProductsPage({
                   className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-700"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2">
-                    <div className="p-6 flex items-center justify-center bg-gray-50 dark:bg-gray-700">
+                    <div className="p-4 sm:p-6 flex items-center justify-center bg-gray-50 dark:bg-gray-700">
                       <img
                         src={`/images/products/${slug}.png`}
                         alt={model}
-                        className="w-64 h-40 object-contain"
+                        className="w-full max-w-xs h-auto aspect-[16/10] object-contain"
                       />
                     </div>
                     <div className="p-6">
-                      <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+                      <h3 className="text-2xl font-semibold break-words text-gray-900 dark:text-white mb-2">
                         {model}
                       </h3>
                       <ul className="text-gray-600 dark:text-gray-300 space-y-1 mb-4 text-sm">
@@ -91,13 +91,13 @@ export default async function ProductsPage({
                       <div className="flex flex-wrap gap-3">
                         <a
                           href="mailto:info@yuyi-electric.com"
-                          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+                          className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
                         >
                           {t.cta.emailBtn}
                         </a>
                         <a
                           href="tel:+86-577-12345678"
-                          className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+                          className="w-full sm:w-auto bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium"
                         >
                           {t.cta.phoneBtn}
                         </a>
@@ -118,11 +118,11 @@ export default async function ProductsPage({
             {t.specs.title}
           </h2>
           <div className="overflow-x-auto">
-            <table className="w-full bg-white dark:bg-gray-800 rounded-lg shadow-md">
+            <table className="w-full min-w-[700px] bg-white dark:bg-gray-800 rounded-lg shadow-md">
               <thead className="bg-gray-50 dark:bg-gray-700">
                 <tr>
                   {t.specs.headers?.map((h: string) => (
-                    <th key={h} className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                    <th key={h} className="px-3 py-2 sm:px-6 sm:py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                       {h}
                     </th>
                   ))}
@@ -132,7 +132,7 @@ export default async function ProductsPage({
                 {t.specs.rows?.map((row: string[], idx: number) => (
                   <tr key={idx}>
                     {row.map((cell: string, cidx: number) => (
-                      <td key={cidx} className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
+                      <td key={cidx} className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap break-words text-sm text-gray-900 dark:text-white">
                         {cell}
                       </td>
                     ))}
@@ -178,13 +178,13 @@ export default async function ProductsPage({
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="mailto:info@yuyi-electric.com"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+              className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               {t.cta.emailBtn}
             </a>
             <a
               href="tel:+86-577-12345678"
-              className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+              className="w-full sm:w-auto bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               {t.cta.phoneBtn}
             </a>

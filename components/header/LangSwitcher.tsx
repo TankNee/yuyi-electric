@@ -44,8 +44,8 @@ export const LangSwitcher = () => {
         <SelectValue placeholder="Language" />
       </SelectTrigger>
       <SelectContent>
-        {Object.keys(localeNames).map((key: string) => {
-          const name = localeNames[key];
+        {["en", "zh"].map((key: string) => {
+          const name = (localeNames as any)[key] || key;
           return (
             <SelectItem className="cursor-pointer" key={key} value={key}>
               {name}
