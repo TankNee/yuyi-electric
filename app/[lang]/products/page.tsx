@@ -39,6 +39,7 @@ export default async function ProductsPage({
       image: "/images/products/uk-3N.png",
       alt: "UK-3N 通用接线端子",
       specs: {
+        crossSection: "—",
         current: "32A",
         voltage: "800V",
         range: "刚性 0.2–4mm² / 柔性 0.2–2.5mm²",
