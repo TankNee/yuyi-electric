@@ -70,9 +70,6 @@ export default async function ProductsPage({
                         src={`/images/products/${slug}.png`}
                         alt={model}
                         className="w-64 h-40 object-contain"
-                        onError={(e) => {
-                          (e.currentTarget as HTMLImageElement).src = "/images/techStack/terminal.svg";
-                        }}
                       />
                     </div>
                     <div className="p-6">
